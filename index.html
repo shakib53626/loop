@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript-2</title>
+    <link rel="icon" type="image/x-icon" href="">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mukta:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Rasponsive -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <!-- Owl Carousel file link -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="title-bar"><h1>Using if, else if and else</h1></div>
+        </div>
+    </header>
+    
+
+    <section class="section">
+        <div class="container">
+            <div class="section-content">
+                <div class="total-area">
+                    <div class="question-area">
+                        <div class="addition">
+                            <p>1. Write a C program to input week number(1-7) and print day of week name
+                            using switch case.</p>
+                            <br>
+
+                            <div class="solution-box text-center">
+                                <input type="text" class="text-center" placeholder="Enter a Week Number" id="week">
+                                <button onclick="calcWeek();" class="d-block m-auto mt-4">Submit</button>
+                                <input type="anwser" class="text-center mt-4" placeholder="See Your Answer" id="w-output">
+                            
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="question-area">
+                        <div class="addition">
+                            <p>2. Write a C program to input month number and print total number of
+                                days in month using switch...case.</p>
+                            <br>
+
+                            <div class="solution-box text-center">
+                                <input type="text" class="text-center" placeholder="Enter a Month Number" id="month">
+                                <button onclick="calcMonth();" class="d-block m-auto mt-4">Submit</button>
+                                <input type="text" class="text-center mt-4" placeholder="See Your Answer" id="moutput">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-area">
+                        <div class="addition">
+                            <p>3. Write a C program to input an alphabet and check whether it is vowel or
+                                consonant using switch case.</p>
+                            <br>
+
+                            <div class="solution-box text-center">
+                                <input type="text" class="text-center" placeholder="Enter a Month Number" id="vowel">
+                                <button onclick="calcVowel();" class="d-block m-auto mt-4">Submit</button>
+                                <input type="text" class="text-center mt-4" placeholder="See Your Answer" id="voutput">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-area">
+                        <div class="addition">
+                            <p>4. Write a C program to input two numbers from user and find maximum
+                                between two numbers using switch case. </p>
+                            <br>
+
+                            <div class="solution-box text-center">
+                                <input type="text" class="text-center" placeholder="Enter First Number" id="first-number">
+                                <span class="d-b"> + </span>
+                                <input type="text" class="text-center" placeholder="Enter Second Number" id="second-number">
+                                <button onclick="calcBig();" class="d-block m-auto mt-4">Submit</button>
+                                <input type="text" class="text-center mt-4" placeholder="See Your Answer" id="bigoutput">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-area">
+                        <div class="addition">
+                            <p>5. Write a C program to input number from user and check whether the
+                                number is even or odd using switch case. </p>
+                            <br>
+
+                            <div class="solution-box text-center">
+                                <input type="text" class="text-center" placeholder="Enter a Number" id="odd">
+                                <button onclick="calcOdd();" class="d-block m-auto mt-4">Submit</button>
+                                <input type="text" class="text-center mt-4" placeholder="See Your Answer" id="oddoutput">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-area">
+                        <div class="addition">
+                            <p>6. Write a C program to input a number and check positive negative or
+                                zero using switch case.</p>
+                            <br>
+
+                            <div class="solution-box text-center">
+                                <input type="text" class="text-center" placeholder="Enter a Number" id="positive">
+                                <button onclick="calcPositive();" class="d-block m-auto mt-4">Submit</button>
+                                <input type="text" class="text-center mt-4" placeholder="See Your Answer" id="positiveoutput">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-area">
+                        <div class="addition">
+                            <p>7. Write a C program to find all roots of a Quadratic equation using
+                                switch case. </p>
+                            <br>
+
+                            <div class="solution-box text-center">
+                                <input type="text" class="text-center" placeholder="Enter a Number" id="rooted">
+                                <button onclick="calcRooted();" class="d-block m-auto mt-4">Submit</button>
+                                <input type="text" class="text-center mt-4" placeholder="See Your Answer" id="rootoutput">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-area">
+                        <div class="addition">
+                            <p>8. Write a C program to input a character from user and check whether
+                                given character is alphabet, digit or special character using if else. </p>
+                            <br>
+
+                            <div class="solution-box text-center">
+                                <input type="text" class="text-center" placeholder="Enter a Number" id="che">
+                                <button onclick="calcChe();" class="d-block m-auto mt-4">Submit</button>
+                                <input type="text" class="text-center mt-4" placeholder="See Your Answer" id="cheoutput">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-area">
+                        <div class="addition">
+                            <p>9. Write a C program to input character from user and check whether
+                                character is uppercase or lowercase alphabet using if else.</p>
+                            <br>
+
+                            <div class="solution-box text-center">
+                                <input type="text" class="text-center" placeholder="Enter a Number" id="upper">
+                                <button onclick="calcUpper();" class="d-block m-auto mt-4">Submit</button>
+                                <input type="text" class="text-center mt-4" placeholder="See Your Answer" id="upperoutput">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-area">
+                        <div class="addition">
+                            <p>10. Write a C program to check whether a triangle is valid or not if angles
+                                are given using if else.</p>
+                            <br>
+
+                            <div class="solution-box text-center">
+                                <input type="text" class="text-center" placeholder="Enter First Angle" id="angle1">
+                                <span> + </span>
+                                <input type="text" class="text-center" placeholder="Enter 2nd Angle" id="angle2">
+                                <span class="d-b"> + </span>
+                                <input type="text" class="text-center" placeholder="Enter 3rd Angle" id="angle3">
+                                <button onclick="calcAngle();" class="d-block m-auto mt-4">Submit</button>
+                                <input type="text" class="text-center mt-4" placeholder="See Your Answer" id="angleoutput">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-area">
+                        <div class="addition">
+                            <p>10. Write a C program to check whether a triangle is valid or not if angles
+                                are given using if else.</p>
+                            <br>
+
+                            <div class="solution-box text-center">
+                                <input type="text" class="text-center" placeholder="প্রথম বাহু" id="line1">
+                                <input type="text" class="text-center" placeholder="দ্বিতীয় বাহু" id="line2">
+                                <input type="text" class="text-center" placeholder="তৃতীয় বাহু" id="line3">
+                                <button onclick="calcLine();" class="d-block m-auto mt-4">Submit</button>
+                                <input type="text" class="text-center mt-4" placeholder="See Your Answer" id="lineoutput">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-area">
+                        <div class="addition">
+                            <p>11. Write a C program to input cost price and selling price of a product and
+                                check profit or loss.</p>
+                            <br>
+
+                            <div class="solution-box text-center">
+                                <input type="text" class="text-center" placeholder="ক্রয় মূল্য" id="cost">
+                                <span class="d-b"> - </span>
+                                <input type="text" class="text-center" placeholder="বিক্রয়মূল্য" id="sell">
+                                <button onclick="calcCost();" class="d-block m-auto mt-4">Submit</button>
+                                <input type="text" class="text-center mt-4" placeholder="See Your Answer" id="costoutput">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-area">
+                        <div class="addition">
+                            <p>**12. Write a C program to input marks of five subjects Physics, Chemistry,
+                                +```````````Biology, Mathematics and Computer, calculate percentage and
+                                grade according to given conditions:<br>
+                                If percentage >= 90% : Grade A<br>
+                                If percentage >= 80% : Grade B<br>
+                                If percentage >= 70% : Grade C<br>
+                                If percentage >= 60% : Grade D<br>
+                                If percentage >= 40% : Grade E<br>
+                                If percentage < 40% : Grade F</p>
+                            <br>
+
+                            <div class="solution-box text-center">
+                                <div class="name text-start">
+                                    <span>Full Name : </span><input type="text" class="text-center" placeholder="Full Name" id="name">
+                                </div>
+                                <div class="name text-start w-40 ">
+                                    <span>First Name : </span><input type="text" class="text-center" placeholder="First Name" id="fname">
+                                    <span>Last Name : </span><input type="text" class="text-center" placeholder="Last Name" id="lname">
+                                </div>
+                                <div class="name text-start w-39">
+                                    <span>Physics Marks : </span><input type="text" class="text-center" placeholder="Enter Marks" id="ph">
+                                    <span>Chemistry Marks : </span><input type="text" class="text-center" placeholder="Enter Marks" id="ch">
+                                    <span>Biology Marks : </span><input type="text" class="text-center" placeholder="Enter Marks" id="bi">
+                                    <span>Math Marks : </span><input type="text" class="text-center" placeholder="Enter Marks" id="ma">
+                                    <span>Computer Marks : </span><input type="text" class="text-center" placeholder="Enter Marks" id="co">
+                                </div>
+                                
+                                <button onclick="calcGread();" class="d-block m-auto mt-4">Submit</button>
+                                <div class="name text-start">
+                                    <span>Avg Marks : </span><input type="text" class="text-center mt-4" placeholder="Marks and Gread" id="avgoutput">
+                                </div>
+                                
+                            
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <header>
+        <div class="container">
+            <div class="title-bar"><h1>Using for loop, while loop and do while loop</h1></div>
+        </div>
+    </header>
+
+
+
+    <section class="section">
+        <div class="container">
+            <div class="section-content">
+                <div class="total-area">
+                    <div class="question-area">
+                        <div class="addition">
+                            <p>1. Program to print natural numbers from 1 to n.</p>
+                            <p>2. Write a C program to print all natural numbers in reverse
+                                from n to 1 using for loop.</p>
+                            <br>
+
+                            <div class="solution-box text-center">
+                                <input type="text" class="text-center" placeholder="Enter Starting Number" id="stn">
+                                <span><i class="fa-solid fa-right-long text-light"></i></span>
+                                <input type="text" class="text-center" placeholder="Enter Ending Number" id="enn">
+                                <button onclick="calcStn();" class="d-block m-auto mt-4">Submit</button>
+                                <input type="text" class="text-center" placeholder="Enter Starting Number" id="stnoutput">
+                                
+                            
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="question-area">
+                        <div class="addition">
+                            <p>1. Write a C program to input week number(1-7) and print day of week name
+                            using switch case.</p>
+                            <br>
+
+                            <div class="solution-box text-center">
+                                <input type="text" class="text-center" placeholder="Enter a Week Number" id="week">
+                                <button onclick="calcWeek();" class="d-block m-auto mt-4">Submit</button>
+                                <input type="anwser" class="text-center mt-4" placeholder="See Your Answer" id="w-output">
+                            
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+   
+
+    <script src="js/main.js"></script>
+</body>
+</html>
