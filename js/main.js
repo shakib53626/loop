@@ -138,8 +138,6 @@ function calcReverse(){
 		result7.innerHTML+= "This is Not a Palindrome Number = "+ num;
 	}
 
-	result7.innerHTML+= "Frequency of Digits in this Number";
-
 	
 	
 
