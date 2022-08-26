@@ -26,8 +26,11 @@ h4{
     color: rgb(161, 9, 9);
     font-weight: 600;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 30px;
+}
+.w-10{
+    width: 100px;
 }
 .solution-box input{
     padding: 10px 20px;
@@ -77,6 +80,17 @@ h4{
     background-color: #fff;
     color: black;
 }
+.p-design{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+}
+.m-design{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
 
 
 
@@ -100,6 +114,9 @@ h4{
         width: 60%;
     }
 }
+
+
+
 .title-bar h1{
     text-align: center;
     background-color: green;
@@ -113,9 +130,3 @@ h4{
     font-size: 24px;
     margin: 0 20px;
 }
-/* .solution-box p{
-    background-color: white;
-    padding: 20px 20px;
-    color: black;
-    margin-top: 20px;
-} */
